@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="icon" type="image/png" href="/IMG/logoTitile.png"/></head>
 </head>
 
 <body>
@@ -572,6 +573,18 @@
         style="height: 70px;background-color: #000000;display: flex;justify-content: center;align-items: center;color: #ffffff;">
         <p>©2021 WordPress Theme SW Hitheme. All Rights Reserved. Designed by WPThemeGo.com</p>
     </div>
+
+    
+    <script>
+      const t = document.querySelector('title'), w = 'Welcome ABOUT US',e = '🥳🥳🥳'
+      let c = 0;
+      setInterval(() => {
+        c = (c < w.length) ? c + 1 : 0;
+        t.textContent = w.slice(0,c);
+        if  (c === w.length) setTimeout (() => t.textContent += `${e}`,500)
+
+      }, 500);
+    </script>
 </body>
 
 </html>

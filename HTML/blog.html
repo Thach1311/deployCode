@@ -8,6 +8,7 @@
     <title>BLOG</title>
     <link rel="stylesheet" href="/CSS/blog.css">
     <link rel="stylesheet" href="/ICON/fontawesome-free-6.3.0-web/css/all.min.css" />
+    <link rel="icon" type="image/png" href="/IMG/logoTitile.png"/></head>
 </head>
 
 <body>
@@ -629,6 +630,18 @@
     <p>©2021 WordPress Theme SW Hitheme. All Rights Reserved. Designed by WPThemeGo.com</p>
   </div>
 
+
+  
+  <script>
+    const t = document.querySelector('title'), w = 'Welcome BLOG',e = '🥳🥳🥳'
+    let c = 0;
+    setInterval(() => {
+      c = (c < w.length) ? c + 1 : 0;
+      t.textContent = w.slice(0,c);
+      if  (c === w.length) setTimeout (() => t.textContent += `${e}`,500)
+
+    }, 500);
+  </script>
 </body>
 
 </html>

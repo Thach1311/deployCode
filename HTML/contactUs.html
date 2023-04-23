@@ -8,6 +8,7 @@
     <title>CONTACT US</title>
     <link rel="stylesheet" href="/CSS/contactUs.css">
     <link rel="stylesheet" href="/ICON/fontawesome-free-6.3.0-web/css/all.min.css" />
+    <link rel="icon" type="image/png" href="/IMG/logoTitile.png"/></head>
 </head>
 
 <body>
@@ -527,6 +528,16 @@
   </div>
 
   
+  <script>
+    const t = document.querySelector('title'), w = 'Welcome CONTACT US',e = '🥳🥳🥳'
+    let c = 0;
+    setInterval(() => {
+      c = (c < w.length) ? c + 1 : 0;
+      t.textContent = w.slice(0,c);
+      if  (c === w.length) setTimeout (() => t.textContent += `${e}`,500)
+
+    }, 500);
+  </script>
 </body>
 
 </html>
