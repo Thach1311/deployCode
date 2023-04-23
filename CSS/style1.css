@@ -728,7 +728,7 @@
 
 .slide {
 
-    background-image: url(../IMG/slide01.jpg);
+    background-image: url(/IMG/slide01.jpg);
     /* animation: changeIMG 20s infinite alternate; */
     width: 100%;
     background-repeat: no-repeat;
@@ -863,7 +863,7 @@
 }
 
 .main1__wellcom {
-    background-image: url(../IMG/bgmain1.jpg);
+    background-image: url(/IMG/bgmain1.jpg);
     width: 1150px;
     height: 450px;
     margin-top: -35px;
@@ -1073,7 +1073,7 @@
 
 /* sidebar */
 .sidebar {
-    background-image: url(../IMG/sidebar/bgmain.jpg);
+    background-image: url(/IMG/sidebar/bgmain.jpg);
     width: 100%;
     height: 650px;
     background-repeat: no-repeat;
@@ -1337,7 +1337,7 @@
 /* mentor */
 
 .mentor {
-    background-image: url(../IMG/sidebar/slide\ gioi\ thieu.png);
+    background-image: url(/IMG/sidebar/slide\ gioi\ thieu.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -1359,7 +1359,7 @@
     height: 120px;
     width: 120px;
     border-radius: 100%;
-    background-image: url(../IMG/mentor1.jpg);
+    background-image: url(/IMG/mentor1.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -1369,28 +1369,28 @@
 
 @keyframes changeMentor {
     0% {
-        background-image: url(../IMG/mentor1.jpg);
+        background-image: url(/IMG/mentor1.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
     }
 
     30% {
-        background-image: url(../IMG/mentor2.jpg);
+        background-image: url(/IMG/mentor2.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
     }
 
     50% {
-        background-image: url(../IMG/mentor3.jpg);
+        background-image: url(/IMG/mentor3.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
     }
 
     100% {
-        background-image: url(../IMG/mentor4.jpg);
+        background-image: url(/IMG/mentor4.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
