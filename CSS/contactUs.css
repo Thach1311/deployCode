@@ -726,7 +726,7 @@
 
 
 .slider__form{
-    background-image: url(/IMG/contactus/slide.jpg);
+    background-image: url(../IMG/contactus/slide.jpg);
     /* animation: changeIMG 5s infinite alternate; */
     width: 100%;
     background-repeat: no-repeat;
@@ -761,15 +761,15 @@
 }
 @keyframes changeIMG {
     0%{
-    background-image: url(/IMG/sliderHome/img1.jpg);
+    background-image: url(../IMG/sliderHome/img1.jpg);
 
     }
     50%{
-        background-image: url(/IMG/sliderHome/img2.jpg);
+        background-image: url(../IMG/sliderHome/img2.jpg);
 
     }
     100%{
-     background-image: url(/IMG/sliderHome/img3.jpg);
+     background-image: url(../IMG/sliderHome/img3.jpg);
 
     }
 }
